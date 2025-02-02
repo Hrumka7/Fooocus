@@ -472,9 +472,6 @@ lora_downloads["ThePit Style.safetensors"] = "https://civitai.com/api/download/m
 lora_downloads["Pegging Comic.safetensors"] = "https://civitai.com/api/download/models/525107?type=Model&format=SafeTensor"
 lora_downloads["Zeni.safetensors"] = "https://civitai.com/api/download/models/1104910?type=Model&format=SafeTensor"
 
-https://civitai.com/api/download/models/449028?type=Model&format=SafeTensor
-
-
 embeddings_downloads = get_config_item_or_set_default(
     key='embeddings_downloads',
     default_value={},
