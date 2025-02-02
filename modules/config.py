@@ -457,7 +457,7 @@ checkpoint_downloads = get_config_item_or_set_default(
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items()),
     expected_type=dict
 )
-checkpoint_downloads["Prefect_Pony XL.safetensors"] = "https://civitai.com/api/download/models/1111838?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+checkpoint_downloads["WAI-NSFW-illustrious-SDXL.safetensors"] = "https://civitai.com/api/download/models/1283437?type=Model&format=SafeTensor&size=pruned&fp=fp16"
 
 
 lora_downloads = get_config_item_or_set_default(
