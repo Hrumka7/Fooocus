@@ -457,7 +457,7 @@ checkpoint_downloads = get_config_item_or_set_default(
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items()),
     expected_type=dict
 )
-checkpoint_downloads["Prefect_Pony XL.safetensors"] = "https://civitai.com/api/download/models/1047139?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+checkpoint_downloads["Prefect_Pony XL.safetensors"] = "https://civitai.com/api/download/models/1111838?type=Model&format=SafeTensor&size=pruned&fp=fp16"
 
 
 lora_downloads = get_config_item_or_set_default(
@@ -467,6 +467,8 @@ lora_downloads = get_config_item_or_set_default(
     expected_type=dict
 )
 lora_downloads["lora1.safetensors"] = "https://drive.google.com/uc?id=1SAdVi70rBDUyqZGUDYJouxt-xPfX51nJ&export=download"
+lora_downloads["ExpressiveH"] = "https://civitai.com/api/download/models/382152?type=Model&format=SafeTensor"
+lora_downloads["Pegging Comic.safetensors"] = "https://civitai.com/api/download/models/525107?type=Model&format=SafeTensor"
 
 
 embeddings_downloads = get_config_item_or_set_default(
