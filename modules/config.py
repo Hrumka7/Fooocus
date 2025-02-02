@@ -470,7 +470,7 @@ lora_downloads["lora1.safetensors"] = "https://drive.google.com/uc?id=1SAdVi70rB
 lora_downloads["ExpressiveH"] = "https://civitai.com/api/download/models/382152?type=Model&format=SafeTensor"
 lora_downloads["ThePit Style.safetensors"] = "https://civitai.com/api/download/models/449028?type=Model&format=SafeTensor"
 lora_downloads["Pegging Comic.safetensors"] = "https://civitai.com/api/download/models/525107?type=Model&format=SafeTensor"
-lora_downloads["Zeni.safetensors"] = https://civitai.com/api/download/models/1104910?type=Model&format=SafeTensor"
+lora_downloads["Zeni.safetensors"] = "https://civitai.com/api/download/models/1104910?type=Model&format=SafeTensor"
 
 https://civitai.com/api/download/models/449028?type=Model&format=SafeTensor
 
