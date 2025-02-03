@@ -457,7 +457,7 @@ checkpoint_downloads = get_config_item_or_set_default(
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items()),
     expected_type=dict
 )
-checkpoint_downloads["WAI-NSFW-illustrious-SDXL.safetensors"] = "https://civitai.com/api/download/models/1283437?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+checkpoint_downloads["PrefectiousXL_NSFW.safetensors"] = "https://huggingface.co/Hrumka7/BakaTry/resolve/main/PrefectiousXLNSFW_v10.safetensors"
 
 
 lora_downloads = get_config_item_or_set_default(
@@ -466,9 +466,10 @@ lora_downloads = get_config_item_or_set_default(
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items()),
     expected_type=dict
 )
-lora_downloads["lora1.safetensors"] = "https://drive.google.com/uc?id=1SAdVi70rBDUyqZGUDYJouxt-xPfX51nJ&export=download"
-lora_downloads["ExpressiveH"] = "https://civitai.com/api/download/models/382152?type=Model&format=SafeTensor"
-lora_downloads["Pegging Comic.safetensors"] = "https://civitai.com/api/download/models/525107?type=Model&format=SafeTensor"
+lora_downloads["handjob from behind_illustrious_V1.0.safetensors"] = "https://huggingface.co/Hrumka7/BakaTry/resolve/main/handjob%20from%20behind_illustrious_V1.0.safetensors"
+lora_downloads["StraponSDXL.safetensors"] = "https://huggingface.co/Hrumka7/BakaTry/resolve/main/StraponSDXL.safetensors"
+lora_downloads["reacharoundhandjob-pony.safetensors"] = " https://huggingface.co/Hrumka7/BakaTry/resolve/main/reacharoundhandjob-rearhj-pony.safetensors"
+lora_downloads["medaka-kurokami-s2-ponyxl"] = "https://huggingface.co/Hrumka7/BakaTry/resolve/main/medaka-kurokami-s2-ponyxl-lora-nochekaiser.safetensors"
 
 
 embeddings_downloads = get_config_item_or_set_default(
