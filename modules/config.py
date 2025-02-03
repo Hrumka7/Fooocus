@@ -469,7 +469,7 @@ lora_downloads = get_config_item_or_set_default(
 lora_downloads["handjob from behind_illustrious_V1.0.safetensors"] = "https://huggingface.co/Hrumka7/BakaTry/resolve/main/handjob%20from%20behind_illustrious_V1.0.safetensors"
 lora_downloads["StraponSDXL.safetensors"] = "https://huggingface.co/Hrumka7/BakaTry/resolve/main/StraponSDXL.safetensors"
 lora_downloads["reacharoundhandjob-pony.safetensors"] = " https://huggingface.co/Hrumka7/BakaTry/resolve/main/reacharoundhandjob-rearhj-pony.safetensors"
-lora_downloads["medaka-kurokami-s2-ponyxl"] = "https://huggingface.co/Hrumka7/BakaTry/resolve/main/medaka-kurokami-s2-ponyxl-lora-nochekaiser.safetensors"
+lora_downloads["medaka-kurokami-s2-ponyxl.safetensors"] = "https://huggingface.co/Hrumka7/BakaTry/resolve/main/medaka-kurokami-s2-ponyxl-lora-nochekaiser.safetensors"
 
 
 embeddings_downloads = get_config_item_or_set_default(
