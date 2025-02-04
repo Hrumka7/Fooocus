@@ -457,21 +457,12 @@ checkpoint_downloads = get_config_item_or_set_default(
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items()),
     expected_type=dict
 )
-checkpoint_downloads["PrefectiousXL_NSFW.safetensors"] = "https://huggingface.co/Hrumka7/BakaTry/resolve/main/PrefectiousXLNSFW_v10.safetensors"
-
-
 lora_downloads = get_config_item_or_set_default(
     key='lora_downloads',
     default_value={},
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items()),
     expected_type=dict
 )
-lora_downloads["handjob from behind_illustrious_V1.0.safetensors"] = "https://huggingface.co/Hrumka7/BakaTry/resolve/main/handjob%20from%20behind_illustrious_V1.0.safetensors"
-lora_downloads["StraponSDXL.safetensors"] = "https://huggingface.co/Hrumka7/BakaTry/resolve/main/StraponSDXL.safetensors"
-lora_downloads["reacharoundhandjob-pony.safetensors"] = " https://huggingface.co/Hrumka7/BakaTry/resolve/main/reacharoundhandjob-rearhj-pony.safetensors"
-lora_downloads["medaka-kurokami-s2-ponyxl.safetensors"] = "https://huggingface.co/Hrumka7/BakaTry/resolve/main/medaka-kurokami-s2-ponyxl-lora-nochekaiser.safetensors"
-
-
 embeddings_downloads = get_config_item_or_set_default(
     key='embeddings_downloads',
     default_value={},
